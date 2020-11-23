@@ -24,11 +24,19 @@ body{
   height: 50vh;
 }
 
-.form-container, .grocery-container{
+.form-control, .grocery-container{
   border: 1px solid red;
-  width: 90%;
+  width: 80%;
 }
 
 .clear-btn{
   color: #e74c3c;
+}
+.alert-danger {
+  color: #e74c3c;
+  background: #f8d7da;
+}
+.alert-success {
+  color: #27ae60;
+  background: #d4edda;
 }
